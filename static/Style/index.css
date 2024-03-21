@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    color: rgb(7, 2, 2);
+
+}
+
+.section{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.acciones{
+    display: flex;
+    gap: 2rem;
+}
