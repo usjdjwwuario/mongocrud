@@ -54,15 +54,15 @@
                         <td>
                             <img src="../static/img/{{p['_id']}}.jpg" alt="" width="100" height="100">
                         </td>
-                        <td>
-                            <!-- <i class="fa fa-edit text-warning" title="editar"></i>
-                            <i class="fa fa-trash text-danger" title="eliminar"></i> -->
+                        <td class="acci">
                             <div class="acciones">
                                 <a href="/editarProducto/{{ p['_id'] }}">
-                                    <button type="button" class="btn btn-primary">Editar</button>
+                                    <img  class="icons" src="../static/Icons/editar.png" alt="">
+                                    <!-- <button type="button" class="btn btn-primary">Editar</button> -->
                                 </a>
                                 <a href="/eliminarProducto/{{p['_id']}}">
-                                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                                    <!-- <button type="submit" class="btn btn-danger">Eliminar</button> -->
+                                    <img class="icons" src="../static/Icons/basura.png" alt="">
                                 </a>
                                 
                             </div>
