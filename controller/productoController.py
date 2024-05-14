@@ -82,7 +82,7 @@ def agregarProducto():
             if (resultado.acknowledged):
                 idProducto = resultado.inserted_id
                 nombreFoto = f"{idProducto}.jpg"
-                foto.save(os.path.join(app.config["UPLOAD_FOLDER"],nombreFoto))
+                # foto.save(os.path.join(app.config["UPLOAD_FOLDER"],nombreFoto))
                 mensaje = "Producto Agregado Correctamente"
                 estado = True
                 return redirect (url_for("home"))

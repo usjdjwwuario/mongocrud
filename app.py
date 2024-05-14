@@ -8,11 +8,11 @@ app.secret_key = 'clavesecretita'
 
 miConexion= pymongo.MongoClient("mongodb://localhost:27017")
 
-baseDatos = miConexion["Recuperacion_SS"]
+baseDatos = miConexion["Datosss"]
 
-productos = baseDatos["Productos"]
-categoria = baseDatos["Categorias"]
-usuarios = baseDatos["Usuarios"]
+productos = baseDatos["productos"]
+categoria = baseDatos["categorias"]
+usuarios = baseDatos["usuarios"]
 
 from controller.usuarioController import *
 from controller.productoController import *
